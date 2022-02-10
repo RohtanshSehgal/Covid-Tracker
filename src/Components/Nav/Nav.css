@@ -1,0 +1,16 @@
+.navbar {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0%;
+}
+.navbar li {
+  text-align: center;
+  padding: 0%;
+  font-size: xx-large;
+}
+@media (max-width: 500px) {
+  .navbar {
+    /* margin-left: 20%; */
+  }
+}

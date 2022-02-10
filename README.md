@@ -1,70 +1,41 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+# Covid Tracker APP - Rohtansh Sehgal
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deployed on firebase at
+[https://rohtanshcovidtracker.web.app/](Here!)
 
-### `npm test`
+# Process of making this project from scratch!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Choosing A Teck Stack!
 
-### `npm run build`
+Choosing a tech stack is always fun, you get to choose anything you like and can develop fast in. I choose React Js to show my skills in short time developments. This React js code is extensible and can be reused in many projects. UI logic is Seperated for Business logic i.e API Calling and filtering data. The file structure of this app is also very detailed and is curated!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Choosing APIS!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I hunt for many apis so that i have good amount of data to play with. But at the end i have to go with the sources that are verified and are daily updated. So api used in this project can be found in Services directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. https://www.mohfw.gov.in/data/datanew.json
+2. https://api.covid19api.com/country/india?from=&to=
 
-### `npm run eject`
+## Bulding Reusable Components!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+=> React is all about reusability, so there are majority of view components thet are reused, for example "Card" is used as child in many parent components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+=> Writing Styled components was also necessary, so that i dont have to rewrite basic CSS for containers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Seperating UI from Logic!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React js was build to seperate the views from the data models. Many developers in react team have been constatnly trying to maintain this USP of themseleves.
 
-## Learn More
+So i used Custom hooks to seperate data filtering, calling and handling small tasks.
+Custom hooks can be found in hooks directory. They always help us to less the major rewrite and also are easy for debugging.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deploying on Firebase
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I choose to deploy this application on firebase so that anyone can test it without unziping the file and installing all those dependencies.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To make it more rechable for non tech people, firebase is always the best choice to deploy hobby projects.

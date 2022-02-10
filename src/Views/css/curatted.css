@@ -1,0 +1,16 @@
+.picker {
+  height: 50px;
+  width: max-content;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  font-size: larger;
+}
+.button {
+  height: 50px;
+  width: 80px;
+}
+@media (max-width: 450px) {
+  .picker {
+    height: 40px;
+  }
+}

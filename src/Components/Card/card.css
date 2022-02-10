@@ -1,0 +1,57 @@
+#card {
+  text-align: center;
+  max-width: max-content;
+  margin: 20px;
+}
+#card h4 {
+  filter: brightness(85%);
+}
+#card :hover {
+  cursor: pointer;
+}
+.active {
+  color: rgb(255, 187, 85);
+  border-style: solid;
+  border-color: rgb(255, 187, 85);
+  border-width: 0.5px;
+  padding: 10px;
+}
+
+.deaths {
+  color: rgb(255, 53, 53);
+  border-style: solid;
+  border-color: rgb(255, 53, 53);
+  border-width: 0.5px;
+  padding: 10px;
+}
+.recovered {
+  color: #35ff64;
+  border-style: solid;
+  border-color: #35ff64;
+  border-width: 0.5px;
+  padding: 10px;
+}
+.nostate {
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  #card {
+    font-size: smaller;
+    max-width: min-content;
+    margin: 10px;
+  }
+  #card h2 {
+    font-size: medium;
+  }
+}
+@media (max-width: 450px) {
+  #card {
+    font-size: x-small;
+  }
+  #card h2 {
+    font-size: smaller;
+  }
+}
